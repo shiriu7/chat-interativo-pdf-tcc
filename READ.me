@@ -1,0 +1,16 @@
+# Chat Interativo com PDFs para TCC
+
+Este projeto visa criar um chat interativo que responde a perguntas baseadas no conteúdo de arquivos PDF ou de texto. Ele usa IA generativa, embeddings e busca vetorizada para encontrar as respostas mais relevantes.
+
+## Como Funciona
+
+1. Carregue seus documentos PDF na pasta `inputs/`.
+2. O sistema extrai o texto dos documentos e gera embeddings usando o modelo Sentence-BERT.
+3. O índice FAISS é usado para realizar buscas rápidas e semânticas no conteúdo dos documentos.
+4. Você pode interagir com o sistema através de uma API Flask para fazer perguntas.
+
+## Como Rodar o Projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seuusuario/chat-interativo-pdf-tcc.git
